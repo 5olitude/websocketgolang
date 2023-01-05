@@ -36,3 +36,4 @@
      * go run .
      * open browser and type localhost:8000
 ![Login](screen.jpg)
+![Login](screen1.jpg)
