@@ -34,4 +34,4 @@
 #### How to run the program ?
      * cd websocketgolang
      * go run .
-     * oprn browser and type localhost:8000
+     * open browser and type localhost:8000
