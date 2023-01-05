@@ -29,6 +29,7 @@
      If the length of msns length > 20 the first array element will be deleted as the new message arrives
 #### flaws 
      Unique username is not implemented in  the server side , you can implement it inside handlers/socket-handlers.go make changes in find usernameByuserid function
+     Initial user connection requires a refresh sometimes
 
 
 #### How to run the program ?
