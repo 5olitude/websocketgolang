@@ -37,9 +37,9 @@ func main() {
 		}
 		handlers.CreateNewSocketUser(hub, connection, username)
 	})
-	router.PathPrefix("/static").Handler(http.StripPrefix("/static", http.FileServer(http.Dir("/home/joseph/specific-chat-go-lang/ui/build/static"))))
+	router.PathPrefix("/static").Handler(http.StripPrefix("/static", http.FileServer(http.Dir("ui/build/static"))))
 	router.PathPrefix("/").HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		http.ServeFile(w, r, "/home/joseph/specific-chat-go-lang/ui/build/index.html")
+		http.ServeFile(w, r, "ui/build/index.html")
 	})
 
 	log.Println("Server will start at http://localhost:8000/")
