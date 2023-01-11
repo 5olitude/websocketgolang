@@ -1,7 +1,8 @@
 # websocket-golang
 
  This is a simple websocket real time texting web application written in golang gorilla mux and react js
- make sure to upgrade your go version to 1.16 or above (to avail embed package for static files )
+ 
+#####make sure to upgrade your go version to 1.16 or above (to avail embed package for static files )
 
 ## features 
     - Private Chat one to one chat
